@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Recommended Blocker for Youtube",
+  "description": "Hides all viedeos recommended by Youtube so you can focus on being productive",
+  "version": "1.0",
+
+  "content_scripts": [ {
+     "css": [ "styles.css" ],
+     "matches": [ "http://www.youtube.com/*" ]
+  } ],
+  "icons": { "256": "icon.png"}
+}

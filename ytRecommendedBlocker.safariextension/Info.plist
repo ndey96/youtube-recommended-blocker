@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Author</key>
+	<string>Nolan Dey</string>
 	<key>Builder Version</key>
-	<string>12602.3.12.0.1</string>
+	<string>12602.4.8</string>
 	<key>CFBundleDisplayName</key>
-	<string>ytRecommendedBlocker</string>
+	<string>Recommended Blocker for Youtube</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.ytrecommendedblocker</string>
+	<string>com.nolandey.ytrecommendedblocker</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,6 +23,8 @@
 			<string>styles.css</string>
 		</array>
 	</dict>
+	<key>Description</key>
+	<string>Hides all viedeos recommended by Youtube so you can focus on being productive.</string>
 	<key>DeveloperIdentifier</key>
 	<string>A5P7J5U845</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -29,11 +33,17 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>www.youtube.com</string>
+			</array>
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>All</string>
+			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>https://github.com/ndey96/youtube-recommended-blocker</string>
 </dict>
 </plist>
