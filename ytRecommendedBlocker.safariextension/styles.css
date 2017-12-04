@@ -1,5 +1,11 @@
 .videowall-endscreen,
 .watch-sidebar,
-.feed-item-container {
+.feed-item-container,
+ytd-browse {
 	visibility: hidden;
+}
+
+#related {
+	visibility: hidden;
+	height: 0px;
 }
